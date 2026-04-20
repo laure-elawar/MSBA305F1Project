@@ -1,0 +1,403 @@
+<?xml version="1.0" ?>
+<circuits>
+  <circuit>
+    <circuitId/>
+    <name>Albert Park Circuit</name>
+    <country/>
+    <city/>
+    <length_km>5278</length_km>
+    <opened>1953</opened>
+    <longitude>144.968644</longitude>
+    <latitude>-37.849757</latitude>
+  </circuit>
+  <circuit>
+    <circuitId/>
+    <name>Bahrain International Circuit</name>
+    <country/>
+    <city/>
+    <length_km>5412</length_km>
+    <opened>2002</opened>
+    <longitude>50.510539</longitude>
+    <latitude>26.031766</latitude>
+  </circuit>
+  <circuit>
+    <circuitId/>
+    <name>Shanghai International Circuit</name>
+    <country/>
+    <city/>
+    <length_km>5451</length_km>
+    <opened>2004</opened>
+    <longitude>121.21838</longitude>
+    <latitude>31.336835</latitude>
+  </circuit>
+  <circuit>
+    <circuitId/>
+    <name>Circuit de Barcelona-Catalunya</name>
+    <country/>
+    <city/>
+    <length_km>4655</length_km>
+    <opened>1991</opened>
+    <longitude>2.261221</longitude>
+    <latitude>41.570034</latitude>
+  </circuit>
+  <circuit>
+    <circuitId/>
+    <name>Circuit de Monaco</name>
+    <country/>
+    <city/>
+    <length_km>3337</length_km>
+    <opened>1929</opened>
+    <longitude>7.427191</longitude>
+    <latitude>43.739404</latitude>
+  </circuit>
+  <circuit>
+    <circuitId/>
+    <name>Circuit Gilles-Villeneuve</name>
+    <country/>
+    <city/>
+    <length_km>4361</length_km>
+    <opened>1978</opened>
+    <longitude>-73.523246</longitude>
+    <latitude>45.501816</latitude>
+  </circuit>
+  <circuit>
+    <circuitId/>
+    <name>Circuit Paul Ricard</name>
+    <country/>
+    <city/>
+    <length_km>5842</length_km>
+    <opened>1969</opened>
+    <longitude>5.791571</longitude>
+    <latitude>43.25202</latitude>
+  </circuit>
+  <circuit>
+    <circuitId/>
+    <name>Red Bull Ring</name>
+    <country/>
+    <city/>
+    <length_km>4318</length_km>
+    <opened>1969</opened>
+    <longitude>14.765119</longitude>
+    <latitude>47.220023</latitude>
+  </circuit>
+  <circuit>
+    <circuitId/>
+    <name>Silverstone Circuit</name>
+    <country/>
+    <city/>
+    <length_km>5891</length_km>
+    <opened>1948</opened>
+    <longitude>-1.015349</longitude>
+    <latitude>52.07879</latitude>
+  </circuit>
+  <circuit>
+    <circuitId/>
+    <name>Hockenheimring</name>
+    <country/>
+    <city/>
+    <length_km>4574</length_km>
+    <opened>1932</opened>
+    <longitude>8.565865</longitude>
+    <latitude>49.327768</latitude>
+  </circuit>
+  <circuit>
+    <circuitId/>
+    <name>Hungaroring</name>
+    <country/>
+    <city/>
+    <length_km>4381</length_km>
+    <opened>1986</opened>
+    <longitude>19.245888</longitude>
+    <latitude>47.58026</latitude>
+  </circuit>
+  <circuit>
+    <circuitId/>
+    <name>Circuit de Spa-Francorchamps</name>
+    <country/>
+    <city/>
+    <length_km>7004</length_km>
+    <opened>1925</opened>
+    <longitude>5.96502</longitude>
+    <latitude>50.444251</latitude>
+  </circuit>
+  <circuit>
+    <circuitId/>
+    <name>Autodromo Nazionale Monza</name>
+    <country/>
+    <city/>
+    <length_km>5793</length_km>
+    <opened>1922</opened>
+    <longitude>9.281223</longitude>
+    <latitude>45.618975</latitude>
+  </circuit>
+  <circuit>
+    <circuitId/>
+    <name>Marina Bay Street Circuit</name>
+    <country/>
+    <city/>
+    <length_km>4928</length_km>
+    <opened>2008</opened>
+    <longitude>103.864144</longitude>
+    <latitude>1.291728</latitude>
+  </circuit>
+  <circuit>
+    <circuitId/>
+    <name>Sochi Autodrom</name>
+    <country/>
+    <city/>
+    <length_km>5848</length_km>
+    <opened>2014</opened>
+    <longitude>39.968066</longitude>
+    <latitude>43.409699</latitude>
+  </circuit>
+  <circuit>
+    <circuitId/>
+    <name>Suzuka International Racing Course</name>
+    <country/>
+    <city/>
+    <length_km>5807</length_km>
+    <opened>1962</opened>
+    <longitude>136.540283</longitude>
+    <latitude>34.843344</latitude>
+  </circuit>
+  <circuit>
+    <circuitId/>
+    <name>Circuit of the Americas</name>
+    <country/>
+    <city/>
+    <length_km>5514</length_km>
+    <opened>2012</opened>
+    <longitude>-97.639651</longitude>
+    <latitude>30.13176</latitude>
+  </circuit>
+  <circuit>
+    <circuitId/>
+    <name>Autódromo Hermanos Rodríguez</name>
+    <country/>
+    <city/>
+    <length_km>4304</length_km>
+    <opened>1962</opened>
+    <longitude>-99.094338</longitude>
+    <latitude>19.406226</latitude>
+  </circuit>
+  <circuit>
+    <circuitId/>
+    <name>Autódromo José Carlos Pace - Interlagos</name>
+    <country/>
+    <city/>
+    <length_km>4309</length_km>
+    <opened>1940</opened>
+    <longitude>-46.699905</longitude>
+    <latitude>-23.703744</latitude>
+  </circuit>
+  <circuit>
+    <circuitId/>
+    <name>Yas Marina Circuit</name>
+    <country/>
+    <city/>
+    <length_km>5281</length_km>
+    <opened>2009</opened>
+    <longitude>54.605463</longitude>
+    <latitude>24.46997</latitude>
+  </circuit>
+  <circuit>
+    <circuitId/>
+    <name>Autodromo Enzo e Dino Ferrari</name>
+    <country/>
+    <city/>
+    <length_km>4909</length_km>
+    <opened>1953</opened>
+    <longitude>11.716701</longitude>
+    <latitude>44.344056</latitude>
+  </circuit>
+  <circuit>
+    <circuitId/>
+    <name>Nürburgring</name>
+    <country/>
+    <city/>
+    <length_km>5148</length_km>
+    <opened>1927</opened>
+    <longitude>6.947632</longitude>
+    <latitude>50.335537</latitude>
+  </circuit>
+  <circuit>
+    <circuitId/>
+    <name>Autódromo Internacional do Algarve</name>
+    <country/>
+    <city/>
+    <length_km>4653</length_km>
+    <opened>2008</opened>
+    <longitude>-8.63081</longitude>
+    <latitude>37.232113</latitude>
+  </circuit>
+  <circuit>
+    <circuitId/>
+    <name>Autodromo Internazionale del Mugello</name>
+    <country/>
+    <city/>
+    <length_km>5245</length_km>
+    <opened>1914</opened>
+    <longitude>11.371465</longitude>
+    <latitude>43.997589</latitude>
+  </circuit>
+  <circuit>
+    <circuitId/>
+    <name>Sepang International Circuit</name>
+    <country/>
+    <city/>
+    <length_km>5543</length_km>
+    <opened>1999</opened>
+    <longitude>101.735641</longitude>
+    <latitude>2.760529</latitude>
+  </circuit>
+  <circuit>
+    <circuitId/>
+    <name>Intercity Istanbul Park</name>
+    <country/>
+    <city/>
+    <length_km>5338</length_km>
+    <opened>2005</opened>
+    <longitude>29.406152</longitude>
+    <latitude>40.952131</latitude>
+  </circuit>
+  <circuit>
+    <circuitId/>
+    <name>Circuit Zandvoort</name>
+    <country/>
+    <city/>
+    <length_km>4259</length_km>
+    <opened>1948</opened>
+    <longitude>4.540491</longitude>
+    <latitude>52.388408</latitude>
+  </circuit>
+  <circuit>
+    <circuitId/>
+    <name>Circuit de Nevers Magny-Cours</name>
+    <country/>
+    <city/>
+    <length_km>4412</length_km>
+    <opened>1960</opened>
+    <longitude>3.16371</longitude>
+    <latitude>46.864076</latitude>
+  </circuit>
+  <circuit>
+    <circuitId/>
+    <name>Autódromo do Estoril</name>
+    <country/>
+    <city/>
+    <length_km>4349</length_km>
+    <opened>1972</opened>
+    <longitude>-9.393073</longitude>
+    <latitude>38.749017</latitude>
+  </circuit>
+  <circuit>
+    <circuitId/>
+    <name>Autódromo Internacional Nelson Piquet</name>
+    <country/>
+    <city/>
+    <length_km>5031</length_km>
+    <opened>1977</opened>
+    <longitude>-43.395225</longitude>
+    <latitude>-22.97485</latitude>
+  </circuit>
+  <circuit>
+    <circuitId/>
+    <name>Jeddah Corniche Circuit</name>
+    <country/>
+    <city/>
+    <length_km>6175</length_km>
+    <opened>2021</opened>
+    <longitude>39.105076</longitude>
+    <latitude>21.631053</latitude>
+  </circuit>
+  <circuit>
+    <circuitId/>
+    <name>Miami International Autodrome</name>
+    <country/>
+    <city/>
+    <length_km>5412</length_km>
+    <opened>2022</opened>
+    <longitude>-80.237371</longitude>
+    <latitude>25.959092</latitude>
+  </circuit>
+  <circuit>
+    <circuitId/>
+    <name>Losail International Circuit</name>
+    <country/>
+    <city/>
+    <length_km>5380</length_km>
+    <opened>2004</opened>
+    <longitude>51.449681</longitude>
+    <latitude>25.489077</latitude>
+  </circuit>
+  <circuit>
+    <circuitId/>
+    <name>Circuito de Madring</name>
+    <country/>
+    <city/>
+    <length_km>5474</length_km>
+    <opened>2026</opened>
+    <longitude>-3.616887</longitude>
+    <latitude>40.465178</latitude>
+  </circuit>
+  <circuit>
+    <circuitId/>
+    <name>Baku City Circuit</name>
+    <country/>
+    <city/>
+    <length_km>6003</length_km>
+    <opened>2016</opened>
+    <longitude>49.853247</longitude>
+    <latitude>40.372688</latitude>
+  </circuit>
+  <circuit>
+    <circuitId/>
+    <name>Las Vegas Street Circuit</name>
+    <country/>
+    <city/>
+    <length_km>6201</length_km>
+    <opened>2023</opened>
+    <longitude>-115.161202</longitude>
+    <latitude>36.109904</latitude>
+  </circuit>
+  <circuit>
+    <circuitId/>
+    <name>Indianapolis Motor Speedway</name>
+    <country/>
+    <city/>
+    <length_km>4192</length_km>
+    <opened>1909</opened>
+    <longitude>-86.238851</longitude>
+    <latitude>39.793155</latitude>
+  </circuit>
+  <circuit>
+    <circuitId/>
+    <name>Autódromo Oscar y Juan Gálvez</name>
+    <country/>
+    <city/>
+    <length_km>4322</length_km>
+    <opened>1952</opened>
+    <longitude>-58.461256</longitude>
+    <latitude>-34.694048</latitude>
+  </circuit>
+  <circuit>
+    <circuitId/>
+    <name>Kyalami Grand Prix Circuit</name>
+    <country/>
+    <city/>
+    <length_km>4529</length_km>
+    <opened>1961</opened>
+    <longitude>28.069921</longitude>
+    <latitude>-25.998779</latitude>
+  </circuit>
+  <circuit>
+    <circuitId/>
+    <name>Watkins Glen International</name>
+    <country/>
+    <city/>
+    <length_km>5430</length_km>
+    <opened>1956</opened>
+    <longitude>-76.928835</longitude>
+    <latitude>42.341046</latitude>
+  </circuit>
+</circuits>
