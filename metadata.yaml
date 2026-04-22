@@ -1,0 +1,33 @@
+files:
+  df_master-2.csv:
+    description: "Cleaned race-level dataset produced by team"
+    owner: "Team"
+    schema:
+      - name: track
+        type: string
+      - name: finish_position
+        type: integer_or_null
+      - name: driver_number
+        type: integer
+      - name: driver_name
+        type: string
+      - name: team
+        type: string
+      - name: grid_position
+        type: integer_or_null
+      - name: laps
+        type: integer
+      - name: time_retired
+        type: string
+      - name: points
+        type: float
+      - name: fastest_lap_time
+        type: time_or_null
+      - name: position_status
+        type: string
+      - name: time_type
+        type: string
+      - name: race_name
+        type: string_or_missing
+  f1_circuits.xml:
+    notes: "length_km field appears to be stored as integer (e.g., 5278); confirm scaling before using. circuitId values empty."

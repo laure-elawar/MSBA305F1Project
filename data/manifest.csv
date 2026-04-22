@@ -1,0 +1,5 @@
+filename,sha256,size_bytes,download_date,notes
+DF_master_cleaned,ecd06c347c1d5c86709da76cfe15d009baced6d32ea2e05cad9de4dc82ebe2fc, ,2026-04-20,cleaned dataset (df_master-2.csv)
+Formula1_2023season_raceResults.csv,e0aca3a85222794e7ad303b8a0e4ffc4aa1fc2f66fe717dccd0110f350cab9f1, ,2026-04-20,raw CSV
+JSON-F1-full (1).json,cdace4ab3acc3c926b8d4d5727566e1528469c5711ebae81ae3f79e111283ba0, ,2026-04-20,API dump
+f1_circuits.xml,216c14353cb9e6b95db5b3d7fd6b02beba6ebf40edf55ea4deec2f090346b29c, ,2026-04-20,xml circuits metadata
