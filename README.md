@@ -1,28 +1,69 @@
-Project: MSBA305 F1 analysis
+# F1 2023 Season Analytics — MSBA 305 Final Project
 
-This repository contains F1 race data and notebooks for exploratory analysis.
+**Live Dashboard:** [msba305f1project.onrender.com](https://msba305f1project.onrender.com)
 
-What I changed for local execution:
-- Notebooks updated to use a `DATA_ROOT` fallback. They will try Colab Drive if available, otherwise use the repository root (`./`).
-- Hard-coded Colab paths replaced with safe path checks; notebooks now try local filenames when Colab paths are not found.
-- `Amira_sql.ipynb` will prefer `df_master-2.csv` if `df_master.csv` is not present.
+An end-to-end data pipeline and interactive analytics dashboard built on the 2023 Formula 1 season race results. Built for MSBA 305 – Data Processing Frameworks.
 
-How to set up (local):
-1. Create and activate a Python environment (recommended):
+---
+
+## Dashboard
+
+The interactive dashboard is built with Dash + Plotly and features:
+
+- **Championship Overview** — constructor standings and season summary KPIs
+- **Driver Championship** — points standings bar chart across all drivers
+- **Season Progression** — cumulative points over the race calendar
+- **Qualifying Impact** — grid position vs. finish position analysis
+- **Reliability Analysis** — DNF and mechanical failure breakdown by team
+- **Circuit Competitiveness** — P1–P2 gap by track to measure race tightness
+
+---
+
+## Repository Structure
+
+```
+├── dashboard/
+│   └── f1_dashboard.py        # Dash app (deployed to Render)
+├── data/
+│   ├── df_master.csv          # Master race results dataset
+│   ├── Formula1_2023season_raceResults.csv
+│   ├── JSON-F1-full (1).json
+│   └── f1_circuits.xml
+├── notebooks/
+│   ├── F1_2023_Full_Pipeline.ipynb      # Full ETL pipeline
+│   ├── F1_2023_Analytics_Dashboard.ipynb
+│   ├── Amira_sql.ipynb                  # SQL-based analysis
+│   ├── Carmen_F1notebook.ipynb
+│   └── carmen-EDA.ipynb
+├── docs/
+│   ├── access_control_design.md
+│   ├── MSBA 305 - Spring 2025 2026 - Course Project.pdf
+│   └── MSBA305- F1 project proposal.docx
+└── requirements.txt
+```
+
+---
+
+## Running Locally
 
 ```bash
 python -m venv .venv
-source .venv/bin/activate
+source .venv/bin/activate       # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
+cd dashboard
+python f1_dashboard.py
 ```
 
-2. Run notebooks with Jupyter Lab / Notebook, or open in VS Code.
+Then open [http://localhost:8050](http://localhost:8050).
 
-Notes and caveats:
-- I did NOT add an ETL/canonical dataset or provenance files as requested.
-- I did NOT modify dataset contents; cleaning steps remain in the notebooks.
-- `f1_circuits.xml` and other dataset metadata issues were intentionally left for later (unit ambiguity, missing IDs).
+---
 
-Next recommended steps:
-- (Optional) Create a small ETL script to produce a canonical dataset for dashboards.
-- (Optional) Add `data/manifest.csv` and `metadata.yaml` for provenance.
+## Stack
+
+| Layer | Technology |
+|---|---|
+| Data processing | Python, Pandas, NumPy |
+| SQL queries | SQLite (in-memory) |
+| Visualizations | Plotly |
+| Dashboard framework | Dash + Dash Bootstrap Components |
+| Hosting | Render.com |
