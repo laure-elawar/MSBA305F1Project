@@ -585,9 +585,6 @@ def update_circuit_competitiveness(_):
 # ============================================================================
 
 if __name__ == '__main__':
-    print("\n✓ All systems ready!")
-    print("\n🌐 Dashboard: http://127.0.0.1:8050")
-    print("\n⚡ Press CTRL+C to stop\n")
-    print("="*70 + "\n")
-    
-    app.run(debug=True, host='127.0.0.1', port=8050)
+    port = int(os.environ.get("PORT", 8050))
+    debug = os.environ.get("DASH_DEBUG", "false").lower() == "true"
+    app.run(debug=debug, host='0.0.0.0', port=port)
