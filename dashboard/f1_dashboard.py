@@ -20,10 +20,12 @@ import os
 
 # Find the CSV file - try multiple locations
 CSV_PATHS = [
-    'df_master.csv',  # Same directory as script
-    '../df_master.csv',  # Parent directory
-    '../../df_master.csv',  # Two levels up
-    os.path.expanduser('~/df_master.csv'),  # Home directory
+    'data/df_master.csv',
+    '../data/df_master.csv',
+    'df_master.csv',
+    '../df_master.csv',
+    '../../df_master.csv',
+    os.path.expanduser('~/df_master.csv'),
 ]
 
 def find_csv():

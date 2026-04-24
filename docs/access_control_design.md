@@ -1,4 +1,4 @@
-# ⚠️ DATA SENSITIVITY & PRIVACY DISCLAIMER
+# DATA SENSITIVITY & PRIVACY DISCLAIMER
 
 ## No Sensitive Data or PII Present
 
@@ -27,10 +27,10 @@ All data in this project is classified as **PUBLIC** and can be freely shared, a
 
 ### Data Sources Validation
 
-- ✅ F1 Official Website (FIA - Fédération Internationale de l'Automobile)
-- ✅ Publicly Available APIs
-- ✅ Published Race Reports
-- ✅ Historical Records (freely accessible)
+-  F1 Official Website (FIA - Fédération Internationale de l'Automobile)
+-  Publicly Available APIs
+-  Published Race Reports
+-  Historical Records (freely accessible)
 
 ### Security & Access Implications
 
@@ -80,13 +80,13 @@ All data in this project is classified as **PUBLIC** and can be freely shared, a
 **Purpose:** Overall data governance and system administration
 
 **Permissions:**
-- ✅ **Read:** All fields including DOB
-- ✅ **Write:** Can modify data (with version control)
-- ✅ **Delete:** Can remove records (with audit trail)
-- ✅ **Grant:** Can assign roles to other users
-- ✅ **Schema:** Can alter database schema
-- ✅ **Export:** Can export complete dataset
-- ✅ **Admin:** Can access audit logs and system configurations
+-  **Read:** All fields including DOB
+-  **Write:** Can modify data (with version control)
+-  **Delete:** Can remove records (with audit trail)
+-  **Grant:** Can assign roles to other users
+-  **Schema:** Can alter database schema
+-  **Export:** Can export complete dataset
+-  **Admin:** Can access audit logs and system configurations
 
 **Access Level:** UNRESTRICTED
 
@@ -105,13 +105,13 @@ All data in this project is classified as **PUBLIC** and can be freely shared, a
 **Purpose:** Perform statistical analysis and create visualizations
 
 **Permissions:**
-- ✅ **Read:** All fields EXCEPT DOB (restricted)
-- ✅ **Aggregate:** Can compute statistics (avg, sum, count)
-- ❌ **Write:** Cannot modify raw data
-- ❌ **Delete:** Cannot delete records
-- ✅ **Export:** Can export sanitized datasets (no DOB)
-- ✅ **Query:** Can run SQL queries on approved tables/views
-- ✅ **Visualize:** Can create dashboards and reports
+-  **Read:** All fields EXCEPT DOB (restricted)
+-  **Aggregate:** Can compute statistics (avg, sum, count)
+-  **Write:** Cannot modify raw data
+-  **Delete:** Cannot delete records
+-  **Export:** Can export sanitized datasets (no DOB)
+-  **Query:** Can run SQL queries on approved tables/views
+-  **Visualize:** Can create dashboards and reports
 
 **Access Level:** READ-ONLY (sanitized)
 
@@ -129,12 +129,12 @@ All data in this project is classified as **PUBLIC** and can be freely shared, a
 **Purpose:** Develop and maintain data pipeline and applications
 
 **Permissions:**
-- ✅ **Read:** All fields EXCEPT DOB in production
-- ✅ **Read:** All fields INCLUDING DOB in development (anonymized data)
-- ✅ **Write:** Can modify code and pipeline configurations
-- ❌ **Write:** Cannot modify production data
-- ✅ **Deploy:** Can deploy new dashboard versions
-- ✅ **Debug:** Can access application logs
+-  **Read:** All fields EXCEPT DOB in production
+-  **Read:** All fields INCLUDING DOB in development (anonymized data)
+-  **Write:** Can modify code and pipeline configurations
+-  **Write:** Cannot modify production data
+-  **Deploy:** Can deploy new dashboard versions
+-  **Debug:** Can access application logs
 
 **Access Level:** READ-ONLY (production), FULL (development)
 
@@ -153,10 +153,10 @@ All data in this project is classified as **PUBLIC** and can be freely shared, a
 **Purpose:** View published analytics and visualizations
 
 **Permissions:**
-- ✅ **Read:** Public dashboard only (highly sanitized)
-- ❌ **Export:** Cannot download raw data
-- ❌ **Query:** Cannot run custom queries
-- ✅ **Interact:** Can filter and explore published dashboards
+-  **Read:** Public dashboard only (highly sanitized)
+-  **Export:** Cannot download raw data
+-  **Query:** Cannot run custom queries
+-  **Interact:** Can filter and explore published dashboards
 
 **Access Level:** PUBLIC (anonymous or authenticated)
 
